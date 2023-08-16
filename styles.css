@@ -1,0 +1,171 @@
+* {
+  font-family: system-ui;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    background: #2a1d20;
+    color: #ff9c8f;
+    max-width: 400px;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+  
+  .new-item-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    border: black;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  .btn {
+    background: hsl(200, 100%, 50%, 0.1);
+    border: 2px solid #ff9c8f;
+    color: #ff9c8f;
+    padding: 0.4em 0.3em;
+    border-radius: 0.25em;
+    cursor: pointer;
+    outline: none;
+    font-size:1.3rem;
+
+  }
+  
+  .btn:hover,
+  .btn:focus-visible {
+    background:#bf6785;
+    font-size: 1.5rem;
+  }
+  
+  .btn.btn-danger {
+    background: #F13B38(0, 71%, 49%);
+    border: 1px solid hsla(141, 62%, 41%, 0.1);
+    color: hsl(0, 100%, 40%);
+  }
+  
+  .btn.btn-danger:hover,
+  .btn.btn-danger:focus-visible {
+    background: hsl(0, 100%, 40%, 0.2);
+  }
+  
+  .new-item-form input {
+    outline: none;
+    border: 1px solid black;
+    background: #ff9c8f;
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  .new-item-form input:focus {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.4rem;
+    
+  }
+  
+  .header {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .list {
+    margin: 20;
+    padding: 90;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    text-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+  
+  .list li:has(input:checked) label {
+    color: hsl(200, 20%, 40%);
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .list li {
+    display: flex;
+    gap: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .list li label {
+    display: flex;
+    gap: 0.25rem;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .list li:has(input:focus-visible) label {
+    outline: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .list li input {
+    outline: none;
+    width: 8rem;
+    height: 0;
+    appearance: none;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .list li label::before {
+    content: "";
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background: hsl(200, 100%, 90%);
+    border-radius: 0.15em;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  
+  .list li label:hover::before {
+    background: hsl(200, 100%, 80%);
+    vertical-align: middle;
+  }
+  
+  .list li:has(input:checked) label::before {
+    content: "✓";
+    background: #bf67a7;
+    color: hsl(200, 100%, 90%);
+    font-size: 1rem;
+  }
+  
+  .list li:has(input:checked) label:hover::before {
+    background: #f1acbe;
+    vertical-align: middle;
+  }
