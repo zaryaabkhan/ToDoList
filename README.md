@@ -1,4 +1,4 @@
-# ToDoList
+# ToDo List
 Create your to-do list, mark them as done, delete them, and add new ones as you go!
 
 # Demo
@@ -6,7 +6,7 @@ Create your to-do list, mark them as done, delete them, and add new ones as you 
 https://github.com/zaryaabkhan/ToDoList/assets/114449533/f2264406-f295-4598-8355-a181d1504b32
 
 # Built With
--React + Javascript working in Vite
+-React + Vite, working with JavaScript 
 -CSS for design
 
 # Installation
