@@ -25,6 +25,6 @@ This project can be used for different frameworks within a productivity app. Wor
 Zaryaab Khan - zfk2107@columbia.edu
 
 # Acknowledgments
-https://www.youtube.com/@WebDevSimplified -- Thank you to Web Dev Simplifed. This project was created as a result of following a tutorial. The tutorial provided step-by-step instructions and guidance on building the core features of this project. While the foundation of this project is based on the tutorial, I've also made modifications and additions to further customize and enhance its functionality.
+Thank you to Web Dev Simplifed. This project was created as a result of following a tutorial. The tutorial provided step-by-step instructions and guidance on building the core features of this project. While the foundation of this project is based on the tutorial, I've also made modifications and additions to further customize and enhance its functionality.
 
 
